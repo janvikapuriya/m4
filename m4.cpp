@@ -54,7 +54,7 @@ void tour(const char *FileNames)
         std::string::iterator it = std::find(CheckLines.begin(), CheckLines.end(), ',');
         if (it == CheckLines.end())
         {
-            std::cout << "Couldn't find  " << FileNames << std::endl;
+            std::cout << "Couldnot find  " << FileNames << std::endl;
             continue;
         }
         else
