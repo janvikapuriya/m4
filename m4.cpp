@@ -41,7 +41,7 @@ void tour(const char *FileNames)
     std::ifstream GameFiles(FileNames);
     if (!GameFiles)
     {
-        std::cout << "Opning Falied " << FileNames << std::endl;
+        std::cout << "Opening Falied " << FileNames << std::endl;
         return;
     }
 
@@ -99,6 +99,6 @@ void tour(const char *FileNames)
     }
     else
     {
-        std::cout << "No record found !! " << Tname << std::endl;
+        std::cout << "No record found !!!!!! " << Tname << std::endl;
     }
 }
